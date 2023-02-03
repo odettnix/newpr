@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:new_fl_pr/screens/registration.dart';
 
 
-class Auth extends StatefulWidget {
-  const Auth({Key? key}) : super(key: key);
+class SignIn extends StatefulWidget {
+  const SignIn({Key? key}) : super(key: key);
 
   @override
-  State<Auth> createState() => AuthState();
+  State<SignIn> createState() => AuthStates();
 }
 
-class AuthState extends State<Auth> {
+class AuthStates extends State<SignIn> {
   TextEditingController controllerLogin = TextEditingController();
   TextEditingController controllerPassword = TextEditingController();
   GlobalKey<FormState> key = GlobalKey();

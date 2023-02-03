@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 
 
-class Screen extends StatefulWidget {
-  const Screen({Key? key}) : super(key: key);
+class Home extends StatefulWidget {
+  const Home({Key? key}) : super(key: key);
 
   @override
-  State<Screen> createState() => ScreenState();
+  State<Home> createState() => HomeState();
 }
 
-class ScreenState extends State<Screen> {
+class HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
